@@ -1,0 +1,15 @@
+/**
+ *
+ * Author : Philippe Latour
+ * 
+ * Colors
+ **/
+
+* {
+    background:     #181818FF;
+    background-alt: #282828FF;
+    foreground:     #FAF0FEFF;
+    selected:       #92F2D9FF;
+    active:         #78eaf08F;
+    urgent:         #E06C75FF;
+}

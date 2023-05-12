@@ -1,0 +1,58 @@
+[colors]
+background = '#181818'
+foreground = '#F2D3B6' 
+cursor_bg = '#FAFAFF' 
+cursor_border = '#FFFFFF' 
+cursor_fg = '#F2D3B6'
+
+ansi = [
+    '#7E7F9A',
+    '#B8515C',
+    '#00FAF8',
+    '#AC9783',
+    '#8a2be2',
+    '#0ab1d1',
+    '#6495ED',
+    '#7E7F9A',
+]
+brights = [
+    '#7E7F9A',
+    '#B8515C',
+    '#00FAF8',
+    '#AC9783',
+    '#8a2be2',
+    '#0ab1d1',
+    '#6495ED',
+    '#7E7F9A',
+]
+
+[colors.tab_bar]
+background = "#181818"
+
+[colors.tab_bar.active_tab]
+bg_color = '#D7D3C1'
+fg_color = '#FAFAFF'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#181818'
+fg_color = '#FEFEFF'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#222222'
+fg_color = '#FAFAFF'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+
+[metadata]
+name = 'Black Orpheus'

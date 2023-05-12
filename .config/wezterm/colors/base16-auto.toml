@@ -1,0 +1,19 @@
+# Start
+# Base16 Orpheus - wezterm color config
+# Scheme by Philippe Latour (https://github.com/philippeLL1)
+[colors]
+background = "#181818"
+foreground = "#b8b8b8"
+
+cursor_bg = "#b8b8b8"
+cursor_border = "#b8b8b8"
+cursor_fg = "#666666"
+
+selection_bg = "#b8b8b8"
+selection_fg = "#d6d6d6"
+
+ansi = ["#181818", "#6495ed", "#21c2c2", "#00faf8", "#21c2c2", "#db93b0", "#f6e7cb", "#b8b8b8"]
+brights = ["#292929", "#db504a", "#1e1e1e", "#222222", "#666666", "#b8b8b8", "#a35fd3", "#d6d6d6"]
+# End
+[metadata]
+name = 'Flavours'

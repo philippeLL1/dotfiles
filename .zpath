@@ -1,0 +1,25 @@
+#!/bin/zsh
+
+# Keeps only the first entry in case of duplicates
+typeset -U path
+
+# General path for system and user binaries 
+path=(
+  /bin/
+	/usr/bin/
+	/usr/share/bin/
+  $HOME/.local/bin/
+  $HOME/.local/share/bin/
+)	
+
+# Additional paths for other package managers
+path+=(
+  $HOME/.local/share/gem/ruby/3.0.0/bin/
+  $HOME/.cargo/bin
+)
+
+# User programs and scripts
+path+=(
+  $HOME/.config/rofi/scripts/
+)
+export PATH
